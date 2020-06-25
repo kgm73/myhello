@@ -1,4 +1,155 @@
 <resources>
     <string name="app_name">myhello</string>
     <string name="title">Hello World! kgm^^</string>
+
+
+    <!--메뉴/버튼-->
+    <string name="add">추가</string>
+    <string name="news">신규</string>
+    <string name="del">삭제</string>
+    <string name="edit">수정</string>
+    <string name="save">저장</string>
+    <string name="help">도움말</string>
+    <string name="search">검색</string>
+    <string name="share">공유</string>
+    <string name="setting">설정</string>
+
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+
+    <string name="close">닫기</string>
+
+    <string name="call">전화걸기</string>
+    <string name="call2">전화걸기(보호자)</string>
+    <string name="messaging">문자보내기</string>
+    <string name="messaging2">문자보내기(보호자)</string>
+
+    <!--항목-->
+    <string name="name">이름</string>
+    <string name="phone">전화번호</string>
+    <string name="memo">메모</string>
+    <string name="phone2">전화번호(보호자)</string>
+
+    <!-- Common & 공통 ==========================================================================-->
+    <string name="msg_running">작업중...</string>
+    <string name="msg_del">"삭제 하겠습니까 (%s)?"</string>
+    <string name="messagings">"%d명 문자보내기"</string>
+
+    <!-- 설정 ===================================================================================-->
+    <string name="general">일반 버젼</string>
+    <string name="premium">프리미엄 버젼</string>
+    <string name="thank">감사합니다.</string>
+    <string name="unidentified">"현재 네트워크 두절로 프리미엄 버전 판별이 안 됩니다. 네트워크 연결 후 다시 실행하시오."</string>
+    <string name="msg_premium">"- 일반 버젼 사용중입니다.\n- 통계 및 공유기능은 프리미엄 버젼에서 사용 가능합니다."</string>
+
+    <!-- BOOK ===================================================================================-->
+    <string name="new_book">출석부생성</string>
+    <string name="imports">가져오기</string>
+    <string name="exports">파일저장</string>
+    <string name="exports_filetype">파일유형을 선택하시요</string>
+
+    <string name="msg_err_booknm">"'%s' 이름의 출석부가 이미 존재합니다."</string>
+    <string name="msg_err_filetype">"확장자가 '.csv/.tsv'인 파일만 가능합니다."</string>
+    <string name="msg_enter_names">출석부 이름을 입력하시요</string> <!--2곳에서 쓰임-->
+    <string name="msg_edit_name">출석부 이름을 수정하시요</string>
+    <string name="msg_wrong_name">"이름에는 다음 문자를 사용할 수 없습니다. "</string>
+
+    <string name="msg_del_book">"출석부(%s)를 삭제 하겠습니까?"</string>
+    <string name="msg_err_readfile">파일을 읽을 수 없습니다.</string>
+
+    <string name="tsv">tsv파일 Google및 범용 (UTF-8)</string>
+    <string name="csv">csv파일 MS Excel (MS949)</string>
+    <string name="tsv_charset">UTF-8</string>
+    <string name="csv_charset">MS949</string>
+
+    <string name="msg_enter_val">"'%s'을 입력하시요."</string>
+    <string name="msg_not_same">입력값이 일치하지 않습니다.</string>
+
+    <!-- Page ===================================================================================-->
+    <string name="msg_no_member">"먼저. 학생을 등록하시요."</string>
+
+    <!-- Checks =================================================================================-->
+    <string name="msg_dup_days">"날짜(%s)가 이미 있습니다. 아래 '구분'버튼을 이용하여 구분하시요."</string>
+
+    <string name="all_check">전체선택</string>
+    <string name="all_uncheck">전체해제</string>
+    <string name="msg_uncheck">결석자 문자 보내기</string>
+    <string name="msg_uncheck2">결석자 문자 보내기(보호자)</string>
+    <string name="msg_check2">출석자 문자 보내기(보호자)</string>
+
+    <string name="msg_no_one">대상이 없습니다.</string>
+
+    <string name="msg_attended_absent">"[%s]\n%s\n%s"</string>
+    <string name="attended">출석 하였습니다.</string>
+    <string name="absent">결석 하였습니다.</string>
+
+    <string name="msg_wrong_txt">"/ 문자는 입력할 수 없습니다."</string>
+
+    <string name="msg_exit">출석정보가 수정되었습니다. 저장하지 않고 종료하시겠습니까?</string>
+    <string name="gubun">구분</string>
+
+    <!-- Member  ================================================================================-->
+    <string name="members">학생부</string>
+
+    <string name="msg_all_member">문자보내기 (전체학생)</string>
+    <string name="msg_all_parent">문자보내기 (전체보호자)</string>
+
+    <string name="msg_enter_name">이름을 입력하시요.</string>
+    <string name="msg_dup_name">"이름(%s)이 이미 존재합니다."</string>
+
+    <string name="msg_no_phone">"%s가 등록되지 않았습니다."</string>
+
+    <string name="msg_no_book">다른 출석부가 없습니다.</string>
+    <string name="msg_choice_book">출석부를 선택하시요.</string>
+
+    <string name="msg_use_mdel">"학생(%s)은 출석내역이 있습니다. 삭제 하겠습니까?"</string>
+
+    <!-- GetMember  =============================================================================-->
+    <string name="getmember">가져오기</string>
+
+    <string name="getm_phone">학생가져오기 (주소록)</string>
+    <string name="getm_book">학생가져오기 (다른출석부)</string>
+    <string name="getm_books">"학생가져오기 (%s)"</string>
+
+    <string name="getm_cnt">"%d/%d"</string>  <!--"가져올 학생을 선택하시요. (%d/%d)"-->
+
+    <string name="msg_select_member">학생을 선택하시오</string>
+    <!--string name="msg_dup_members">"목록에서 학생(%s)을 중복선택했습니다."</string-->
+    <!--string name="msg_dup_member">"학생(%s)은 이미 존재합니다."</string--> <!--"The RollBook(%s) already exists."-->
+
+    <!--Graph  ==================================================================================-->
+    <string name="graph">통계</string>
+    <string name="rate">출석률</string>
+
+    <string name="tab_time">"%s통계 출석(%d회)"</string>
+    <string name="time">일(건)별</string>
+    <string name="week">주별</string>
+    <string name="month">월별</string>
+    <string name="tab_member">"학생별통계 학생(%d명)"</string>
+
+    <string name="sort_time">시간정렬</string>
+    <string name="sort_name">이름정렬</string>
+    <string name="sort_rate">출석률정렬</string>
+
+    <!--MemberDetail ============================================================================-->
+    <string name="sort_check">출/결 정렬</string>
+
+    <!--PageDetail ==============================================================================-->
+
+    <!-- SendSMS  ===============================================================================-->
+    <string name="sendsms_txt">문자내용</string>
+    <string name="sendsms_msg">☞문자는 한번에 20명까지만 보낼수 있어서 아래와 같이 여러번 클릭해서 보내시오</string>
+
+    <!-- DB  ====================================================================================-->
+    <string name="sample_book">sample 출석부</string>
+    <string name="sample_member1">홍길동</string>
+    <string name="sample_member2">이순신</string>
+    <string name="sample_member3">안중근</string>
+    <string name="sample_member4">김영희</string>
+    <string name="sample_member5">김철수</string>
+    <string name="sample_member6">안소니</string>
+
 </resources>
